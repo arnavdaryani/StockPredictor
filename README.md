@@ -26,9 +26,22 @@ To run the Stock Trend Predictor App, you need to have Python installed on your 
 ```bash
 git clone https://github.com/arnavdaryani/StockPredictor.git
 cd StockPredictor
-
-
+```
 ### Install Dependencies
 
 ```bash
 pip install tensorflow keras pandas numpy yfinance matplotlib scikit-learn streamlit
+```
+
+### Usage
+
+```bash
+streamlit run app.py
+```
+
+### App Interface
+
+- Stock Ticker Input: Enter the ticker symbol of the stock you want to predict (e.g., AAPL for Apple Inc.).
+- Data Visualization: View the historical stock prices in a line chart.
+- Model Training: Train the LSTM model using the historical data.
+- Prediction Visualization: View the predicted stock prices alongside the historical data.
